@@ -3,10 +3,6 @@ setwd("C:/Coursera- Data Science/Exploratory Data Analysis/Project")
 unzip("exdata-data-household_power_consumption.zip")
 
 
-#---------------------------
-# Question 1
-#---------------------------
-
 # Reading the data 
 data<-read.table("household_power_consumption.txt",sep=";",header=T,na="?",stringsAsFactors=F)
 head(data)
